@@ -39,8 +39,8 @@ Format: `add NAME [p]p/PHONE_NUMBER [p]e/EMAIL [p]a/ADDRESS [t/TAG]...`
 > Words in `UPPER_CASE` are the parameters, items in `SQUARE_BRACKETS` are optional, 
 > items with `...` after them can have multiple instances. Order of parameters are fixed. 
 >
-> 'ADDRESS' is entered in the following format 'a/BLOCK, STREET, UNIT, POSTAL_CODE'
-> e.g. 'a/123, Clementi Ave 3, #12-34, 231534'
+> `ADDRESS` is entered in the following format `a/BLOCK, STREET, UNIT, POSTAL_CODE`
+> e.g. `a/123, Clementi Ave 3, #12-34, 231534`
 > 
 > Put a `p` before the phone / email / address prefixes to mark it as `private`. `private` details can only
 > be seen using the `viewall` command.
