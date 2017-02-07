@@ -83,4 +83,17 @@ public interface ReadOnlyPerson {
         }
         return builder.toString();
     }
+    
+    /**
+     * Formats a display text of printables. Ignores private settings
+     * @param printables
+     * @return String representing printables
+     */
+    default String getPrintableString(Printable...printables ){
+    	final StringBuilder builder = new StringBuilder();
+    	for(Printable printable : printables){
+    		builder.append(printable.getPrintableString());
+    	}
+    	return builder.toString();
+    }
 }
